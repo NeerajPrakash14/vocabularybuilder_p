@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808000"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.name.neeraj.textinputlayout.T_ant_1_mundane">
+
+
+    <TextView
+        android:id="@+id/qn"
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#00008B"
+        android:text="Which of these is a synonym of the word 'Mundane'?"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.546">
+
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Routine"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Demanding"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Commencement"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Irritable"
+            android:textSize="20dp" />
+
+
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/container1"
+        android:layout_height="match_parent"
+        tools:context="com.codinginflow.newinstanceexample.TestMain" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="404dp"
+        android:text="NEXT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="404dp"
+        android:text="PREVIOUS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</FrameLayout>

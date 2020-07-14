@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+           android:title="COMMODITY: A substance or a primary product that can be traded or brought and sold usually in large quantities" />
+
+
+</menu>

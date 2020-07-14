@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+           android:title="INFLATION: An increase in the prices of goods and services causing a reduction in the value of money" />
+
+
+</menu>

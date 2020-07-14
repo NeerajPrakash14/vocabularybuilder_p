@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.name.neeraj.textinputlayout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Vocabulary Builder"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".login" />
+        <activity android:name=".saveimage" />
+        <activity android:name=".login">
+        </activity>
+        <activity
+            android:name=".listview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".learn_list"
+            android:parentActivityName=".learn" />
+        <activity
+            android:name=".idioms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".confused_mainfragments" />
+        <activity android:name=".proverbs_mainfragments" />
+        <activity
+            android:name=".businesswords_list"
+            android:parentActivityName=".learn" />
+        <activity
+            android:name=".prepositions_mainfragments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".learn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestMain"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".profile"
+            android:parentActivityName=".listview" />
+        <activity
+            android:name=".contactusActivity"
+            android:parentActivityName=".more_drawerActivity" />
+        <activity
+            android:name=".synonyms_test_Main"
+            android:parentActivityName=".TestMain" />
+        <activity
+            android:name=".fillblanks_test_Main"
+            android:parentActivityName=".TestMain" />
+        <activity
+            android:name=".antonyms_test_Main"
+            android:parentActivityName=".TestMain" />
+        <activity
+            android:name=".more_drawerActivity"
+            android:parentActivityName=".listview" />
+        <activity
+            android:name=".referencesActivity"
+            android:parentActivityName=".more_drawerActivity" />
+        <activity
+            android:name=".acknowledgmentActivity"
+            android:parentActivityName=".more_drawerActivity" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

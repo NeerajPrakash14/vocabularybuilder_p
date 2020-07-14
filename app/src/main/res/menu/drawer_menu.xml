@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_words"
+            android:icon="@drawable/ic_learnwords"
+            android:title="Learn Stuff" />
+
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_test"
+            android:title="Take Test" />
+
+        <item
+            android:id="@+id/nav_proverbs"
+            android:icon="@drawable/ic_message"
+            android:title="Proverbs" />
+
+        <item
+            android:id="@+id/nav_confused_words"
+            android:icon="@drawable/ic_confusedwords"
+            android:title="Confused Words" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"></item>
+
+            <item
+                android:id="@+id/nav_Rate"
+                android:icon="@drawable/ic_send"
+                android:title="Rate us"></item>
+
+            <item
+                android:id="@+id/nav_more"
+                android:icon="@drawable/ic_chat"
+                android:title="More"></item>
+
+            <item
+                android:id="@+id/nav_change_password"
+                android:icon="@drawable/ic_changepassword"
+                android:title="Change Password"></item>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout"></item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bricks"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/word1_view"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#00008B"
+        android:text="To lay means to put or to place.\n
+Posey will lay out her outfit before she goes to bed.\n
+The past tense of to lay is laid: Posey laid out her outfit."
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/word2_view"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginTop="310dp"
+        android:textColor="#00008B"
+        android:text="To lie means to recline.\n
+Chester will lie down for a nap.\n
+The past tense of to lie is lay: Chester lay down for a nap over an hour ago."
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/word1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="40dp"
+        android:text="LAY"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/word2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+
+        android:layout_marginTop="260dp"
+        android:text="LIE"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
